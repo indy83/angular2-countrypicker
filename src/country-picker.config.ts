@@ -1,6 +1,6 @@
-import { OpaqueToken } from '@angular/core';
+import { InjectionToken } from '@angular/core';
 
-export let COUNTRY_PICKER_CONFIG = new OpaqueToken('countrypicker.config');
+export let COUNTRY_PICKER_CONFIG = new InjectionToken('countrypicker.config');
 
 export interface CountryPickerConfig {
     baseUrl: string,
